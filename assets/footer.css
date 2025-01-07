@@ -1,0 +1,14 @@
+.footer {
+    display: grid;
+    background-color: aquamarine;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: baseline;
+}
+
+.email {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self: end;
+}
