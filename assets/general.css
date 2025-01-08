@@ -1,11 +1,21 @@
-p {
-    font-family: Roboto, Arial;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  
-  body {
-    display: grid;
-    grid-template-rows: 1fr auto;
-    min-height: 100vh;
+body {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+
+.pozadi {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./images/apps.60323.13950084616086229.56d90257-df96-4000-bf85-a64704b3b019.jpeg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+  z-index: -1;
 }
