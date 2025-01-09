@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     text-align: center;
-    background-color: aquamarine;
+    background-color:rgb(87, 185, 87);
     padding: 10px;
 }
 .email {
