@@ -1,22 +1,29 @@
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     text-align: center;
-    background-color:rgb(87, 185, 87);
-    padding: 10px;
+    justify-items: center;
+    background-color: rgb(87, 185, 87);
+    height: 4rem;
+    padding: 1rem;
 }
+
 .email {
-    grid-column: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
+
 .fa-github {
     grid-column: 2;
     font-size: 24px;
     cursor: pointer;
 }
+
 .fa-github:hover {
     color: #333;
 }
+
 .year {
     grid-column: 3;
 }

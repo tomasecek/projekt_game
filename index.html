@@ -9,21 +9,30 @@
     <link rel="stylesheet" href="assets/content.css">
     <link rel="icon" href="images/grass-block.png" type="image/x-icon">
     <title>Pouť Minecraftem</title>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const pageTitle = document.title;
+            document.title = "Úvod"  + " | Pouť Minecraftem";
+        });
+    </script>
 </head>
 <body>
-    <div class="pozadi"></div>
-    <div class="content">
-        <h1>Vítej ve hře Pouť Minecraftem</h1>
-        <div class="search-container">
-            <form action="./1-cast/start.html">
-                <button type="submit" class="search-button">Začít!</button>
-            </form>
+    <div class="wrapper">
+        <div class="content">
+            <div class="page__style">
+                <h1>Vítej ve hře Pouť Minecraftem</h1>
+                <div class="start-container">
+                    <form action="./1-cast/start.html">
+                        <button type="submit" class="start-button">Začít!</button>
+                    </form>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="footer">
-        <p class="email">tomas.zalud.023@pslib.cz</p>
-        <i class="fa fa-github"></i>
-        <p class="year">&#169; 2025</p>
+        <div class="footer">
+            <p class="email">tomas.zalud.023@pslib.cz</p>
+            <i class="fa fa-github"></i>
+            <p class="year">&#169; 2025</p>
+        </div>
     </div>
 </body>
 </html>
