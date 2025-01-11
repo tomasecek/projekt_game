@@ -1,6 +1,7 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rowS: 1fr;
     align-items: center;
     text-align: center;
     justify-items: center;
@@ -16,7 +17,7 @@
 
 .fa-github {
     grid-column: 2;
-    font-size: 24px;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
