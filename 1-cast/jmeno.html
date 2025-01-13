@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/footer.css">
-    <link rel="stylesheet" href="assets/general.css">
-    <link rel="stylesheet" href="assets/content.css">
-    <link rel="icon" href="images/grass-block.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/footer.css">
+    <link rel="stylesheet" href="../assets/general.css">
+    <link rel="stylesheet" href="../assets/content.css">
+    <link rel="icon" href="../images/grass-block.png" type="image/x-icon">
     <title>Úvod</title>
-    <script src="assets/script.js" defer></script>
+    <script src="../assets/script.js" defer></script>
 </head>
 <body>
     <div class="wrapper">
         <div class="content">
             <div class="page__style">
-                <h1>Vítej ve hře Ruiny zapomenutého světa</h1>
+                <h1>Ruiny zapomenutého světa</h1>
                 <div class="start-container">
-                    <form action="./1-cast/jmeno.html">
-                        <button type="submit" class="start-button">Začít!</button>
+                    <form id="nameForm">
+                        <input class="seacher"type="text" id="nameInput" placeholder="Zadej své jméno" required>
+                        <button type="submit" class="start-button">Pokračovat!</button>
                     </form>
                 </div>
             </div>
