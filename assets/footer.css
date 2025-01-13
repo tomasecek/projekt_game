@@ -1,28 +1,8 @@
 .footer {
-    display: grid;
-    grid-template-areas: "email github year";
-    align-items: center;
-    text-align: center;
-    justify-items: center;
-    background-color: rgb(87, 185, 87);
-    height: 4rem;
+    background-color: #f1f1f1;
     padding: 1rem;
-}
-
-.email {
-    grid-area: email;
-}
-
-.fa-github {
-    grid-area: github;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-
-.fa-github:hover {
-    color: #333;
-}
-
-.year {
-    grid-area: year;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
