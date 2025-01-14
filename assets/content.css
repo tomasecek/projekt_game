@@ -3,7 +3,8 @@
 }
 
 .gamebook-container {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(216, 214, 203, 0.8);
+    border: 1px solid black; 
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -36,4 +37,3 @@
     font-size: 16px;
     font-family: Arial, sans-serif;
 }
-
