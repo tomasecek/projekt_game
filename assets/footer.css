@@ -1,8 +1,25 @@
 .footer {
-    background-color: #f1f1f1;
+    background-color: rgb(216, 201, 168);;
     padding: 1rem;
     text-align: center;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    margin-top: auto;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 0.5rem;
+        font-size: 14px;
+    }
+
+    .footer .email, .footer .year {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer a {
+        display: inline-block;
+        margin-bottom: 0.5rem;
+    }
 }

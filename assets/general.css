@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
+    overflow: hidden; 
 }
 
 .wrapper {
@@ -10,19 +11,56 @@ body, html {
     min-height: 100vh;
 }
 
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: auto; 
+}
 
+.page__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-@media (max-width: 768px) {
-    .gamebook-container {
-        padding: 10px;
-    }
+.start-container {
+    margin-top: 20px;
+}
 
-    .game-image {
-        margin-bottom: 10px;
-    }
+.start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(94, 206, 94);
+    color: white;
+}
 
-    .options button {
-        width: 100%;
-        margin: 10px 0;
-    }
+.start-button:hover {
+    background-color: rgb(37, 202, 37);
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.options button {
+    background-color: rgb(216, 201, 168);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.options button:hover {
+    background-color: wheat;
 }
