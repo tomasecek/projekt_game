@@ -37,3 +37,10 @@
     font-size: 16px;
     font-family: Arial, sans-serif;
 }
+
+
+@media (max-width: 768px) {
+    .gamebook-container {
+        margin: 10px; 
+    }
+}
