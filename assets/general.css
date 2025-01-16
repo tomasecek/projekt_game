@@ -28,11 +28,11 @@ body, html {
 }
 
 .start-container {
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .start-button {
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     font-size: 16px;
     border: none;
     border-radius: 5px;
@@ -48,14 +48,14 @@ body, html {
 .options {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 1.5rem;
 }
 
 .options button {
     background-color: rgb(216, 201, 168);
     border: none;
-    padding: 10px 20px;
-    margin: 5px 0;
+    padding: 0.6rem 2rem;
+    margin: 0.2rem 0;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
