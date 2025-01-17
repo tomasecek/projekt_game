@@ -1,15 +1,35 @@
 .footer {
-    background-color: rgb(243, 232, 208);
-    padding: 1rem;
+    background-color: wheat;
     text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     width: 100%;
     position: relative;
     margin-top: auto;
+    border-top: 2px solid #e9ecef; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+    font-size: 16px;
+    color: #343a40; 
+}
+
+.footer a {
+    color: #007bff; 
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .email, .footer .year {
+    margin: 0.5rem 0;
 }
 
 @media (max-width: 768px) {
     .footer {
-        padding: 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
         font-size: 14px;
     }
 
