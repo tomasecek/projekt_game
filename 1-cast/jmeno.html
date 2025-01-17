@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../assets/footer.css">
     <link rel="stylesheet" href="../assets/general.css">
     <link rel="stylesheet" href="../assets/content.css">
+    <link rel="stylesheet" href="../assets/header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -16,12 +17,16 @@
 </head>
 <body>
     <div class="wrapper">
+        <header class="header">
+            <h1 class="header__title">Ruiny zapomenutého světa</h1>
+            <button class="header__reset-button" onclick="window.location.href='../index.html'">Reset</button>
+        </header>
         <div class="content">
             <div class="page__style">
-                <h1>Ruiny zapomenutého světa</h1>
+                <h2>Vítej ve hře Ruiny zapomenutého světa</h2>
                 <div class="start-container">
                     <form id="nameForm">
-                        <input class="seacher"type="text" id="nameInput" placeholder="Zadej své jméno" required>
+                        <input class="seacher" type="text" id="nameInput" placeholder="Zadej své jméno" required>
                         <button type="submit" class="start-button">Pokračovat!</button>
                     </form>
                 </div>
