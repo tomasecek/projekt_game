@@ -25,21 +25,3 @@
 .footer .email, .footer .year {
     margin: 0.5rem 0;
 }
-
-@media (max-width: 768px) {
-    .footer {
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        font-size: 14px;
-    }
-
-    .footer .email, .footer .year {
-        display: block;
-        margin-bottom: 0.5rem;
-    }
-
-    .footer a {
-        display: inline-block;
-        margin-bottom: 0.5rem;
-    }
-}
