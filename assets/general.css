@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Oswald, sans-serif;
 }
 
 .wrapper {
@@ -48,6 +48,19 @@ body, html {
     flex-direction: column;
     margin-top: 1.5rem;
 }
+
+.options button {
+    font-family: 'Oswald', sans-serif; 
+    color: black; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.options button:hover {
+    background-color: wheat;
+}
+
 
 .options button {
     background-color: rgb(216, 201, 168);
